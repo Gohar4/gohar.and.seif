@@ -2,10 +2,10 @@
 ## A robot that maneuvers past and detects obstacles
 
 # Main Code
-###### Required Softwares
+## Required Softwares
 ubuntu, python(3.6 or above), robotics toolbox, and virtual studio code
 
-###### Modules Required 
+## Modules Required 
   from roboticstoolbox import Bicycle, RandomPath, VehicleIcon, RangeBearingSensor,LandmarkMap
 *add 2D visuals, enable animation, contol of vehicle movment across grid, obstacles, and sensor*
   from math import pi, atan2
@@ -15,7 +15,7 @@ ubuntu, python(3.6 or above), robotics toolbox, and virtual studio code
   import sympy
 *plotting added and other math modules*
 
-###### User Inputs
+## User Inputs
 Xcoordinate = int(input("Enter the X coordinate for the robot's initial position: "))
 Ycoordinate = int(input("Enter the Y coordinate for the robot's initial position: "))
 obs = int(input("Enter the number of obstacles: "))
@@ -23,7 +23,7 @@ Xtarget = int(input("Please enter initial X coordinate for goal: "))
 Ytarget = int(input("Please enter initial Y coordinate for goal: "))
 *user chooses start and target coordinates as well as number of obstacles*
 
-###### Desgin setting locations
+## Desgin setting locations
 *vehicle png chosen and size*
 anim = VehicleIcon('robot1.png', scale = 3)
 
@@ -44,7 +44,7 @@ goal_marker_style = {
 }
 
 
-###### Loops
+## Loops
 *loop does not end until target is reached*
 *loop does not start unless parameters are met*
 run=true
@@ -64,7 +64,7 @@ for i in sensor.h(veh.x):
     dis_land = i[0]
     ang_land = i[1]
     
-###### Plotting
+## Plotting
 *plot vehicle and target*
 plt.plot(goal[0], goal[1], **goal_marker_style)
 
