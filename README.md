@@ -74,3 +74,15 @@ goal_array.append(goal)
 goal_array.insert(0,initialPos)
 x_array=[item[0] for item in goal_array]
 y_array=[item[1] for item in goal_array]
+
+## Results and Further Improvments
+Results:
+  -robot size and movment(direction and speed)
+  -obstacles color, size, and shape
+  -target marker size, color, and shape
+  -user inputs start position, target position, and number of obstacles
+  -sensor detects distance and angle
+Improvments:
+  -user chooses robot with size and speed
+  -diffrent levels
+  -adding diffrent types of sensors
