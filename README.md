@@ -23,7 +23,7 @@ Xtarget = int(input("Please enter initial X coordinate for goal: "))
 Ytarget = int(input("Please enter initial Y coordinate for goal: "))
 *user chooses start and target coordinates as well as number of obstacles*
 
-## Desgin setting locations
+## Desgin and setting locations
 *vehicle png chosen and size*
 anim = VehicleIcon('robot1.png', scale = 3)
 
