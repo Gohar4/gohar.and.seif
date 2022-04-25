@@ -1,2 +1,3 @@
-# gohar.and.seif
-A robot that is able to detect and avoid obstacles
+# Mohamed Gohar202000317
+# Seif Salama 202000190
+A robot that maneuvers past and detects obstacles
